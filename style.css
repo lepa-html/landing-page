@@ -86,8 +86,8 @@ h4 {
 
 .random-info {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    
 }
 
 .card {  
@@ -100,11 +100,19 @@ h4 {
 
   .quote {
       background: #e5e7eb;
+      padding: 30px 30px 30px 30px;
+      display: flex;
   }
 
   p {
       font-size: 36px;
+      color: #686565;
 
+  }
+
+  cite {
+    color: #686565;
+   
   }
 
   .call-action {
@@ -114,6 +122,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 20px 20px 20px;
   }
 
   .header-time {
@@ -133,7 +142,7 @@ h4 {
 
   .modal {
     background: #3882f6;
-    width: 480px;
+    width: 550px;
     border-radius: 10px;
     display: flex;
     gap: 16px;
